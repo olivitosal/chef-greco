@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d4a44"/>
+      <stop offset="100%" stop-color="#20302a"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#g)"/>
+  <text x="50%" y="46%" font-family="Georgia, serif" font-size="77" fill="rgba(255,255,255,0.92)" text-anchor="middle" dominant-baseline="middle">🍝</text>
+  <text x="50%" y="62%" font-family="Arial, sans-serif" font-size="43" fill="rgba(255,255,255,0.85)" text-anchor="middle" dominant-baseline="middle">Spaghetti al Pomodoro</text>
+  <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="25" letter-spacing="2" fill="rgba(255,255,255,0.55)" text-anchor="middle" dominant-baseline="middle">SOSTITUISCI • 700×700</text>
+</svg>

@@ -4,6 +4,7 @@
    ========================================================================== */
 
 :root {
+   color-scheme: light only;
   /* --- Palette --- */
   --color-cream:        #faf8f4;   /* sfondo principale */
   --color-cream-deep:   #f1ede4;   /* sfondo sezione galleria */

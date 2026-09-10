@@ -129,12 +129,13 @@ body {
   z-index: 100;
   background: rgba(250, 248, 244, 0.85);
   backdrop-filter: saturate(180%) blur(10px);
-  border-bottom: 1px solid transparent;
-  transition: border-color .3s var(--ease), box-shadow .3s var(--ease);
+  /* Linea sottile sempre visibile: separa nettamente la navbar dai blocchi sottostanti */
+  border-bottom: 1px solid var(--color-line);
+  transition: box-shadow .3s var(--ease), background-color .3s var(--ease);
 }
 .site-header.is-scrolled {
-  border-bottom-color: var(--color-line);
   box-shadow: 0 8px 24px -18px rgba(32,28,25,0.35);
+  background: rgba(250, 248, 244, 0.96);
 }
 
 .header-inner {
@@ -156,10 +157,18 @@ body {
 }
 .logo-icon { color: var(--color-terracotta); display: inline-flex; }
 
+/* Raggruppa i link di navigazione e il bottone "Contattami" in un unico
+   blocco spinto a destra, vicino al logo solo per lo spazio residuo */
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
-  gap: 34px;
+  gap: 30px;
 }
 .main-nav a {
   font-size: 15px;

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="950" viewBox="0 0 900 950">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a6a52"/>
+      <stop offset="100%" stop-color="#4a3a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="950" fill="url(#g)"/>
+  <text x="50%" y="46%" font-family="Georgia, serif" font-size="100" fill="rgba(255,255,255,0.92)" text-anchor="middle" dominant-baseline="middle">👨‍🍳</text>
+  <text x="50%" y="62%" font-family="Arial, sans-serif" font-size="56" fill="rgba(255,255,255,0.85)" text-anchor="middle" dominant-baseline="middle">Foto Hero — Chef al lavoro</text>
+  <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="32" letter-spacing="2" fill="rgba(255,255,255,0.55)" text-anchor="middle" dominant-baseline="middle">SOSTITUISCI CON FOTO REALE 900×950</text>
+</svg>

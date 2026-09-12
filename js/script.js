@@ -260,4 +260,23 @@
   scrollTopBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+   
+  /* ---------------------------------------------------------------------
+   * 10) MUSICA DI SOTTOFONDO
+   * ------------------------------------------------------------------- */
+  const bgMusic = document.getElementById("bgMusic");
+  const musicToggle = document.getElementById("musicToggle");
+  if (bgMusic && musicToggle) {
+    musicToggle.addEventListener("click", () => {
+      if (bgMusic.paused) {
+        bgMusic.play().catch(() => {});
+        musicToggle.setAttribute("aria-pressed", "true");
+        musicToggle.setAttribute("aria-label", "Disattiva la musica di sottofondo");
+      } else {
+        bgMusic.pause();
+        musicToggle.setAttribute("aria-pressed", "false");
+        musicToggle.setAttribute("aria-label", "Attiva la musica di sottofondo");
+      }
+    });
+  }
 })();

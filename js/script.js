@@ -21,7 +21,7 @@
       name: "Gamberoni alla Brace",
       description: "Gamberoni lasciati alla brace, lime bruciato, olio al peperoncino e menta fresca.",
       tags: ["Gamberoni", "Lime bruciato", "Olio al peperoncino", "Menta"],
-      img: "images/dishes/gamberoni.svg"
+      img: "images/dishes/1.jpg"
     },
     {
       id: "burrata",
@@ -30,7 +30,7 @@
       name: "Burrata & Pomodorini",
       description: "Burrata pugliese, pomodorini di stagione, pane croccante e basilico dell'orto.",
       tags: ["Burrata", "Pomodorini", "Pane croccante", "Basilico"],
-      img: "images/dishes/burrata.svg"
+      img: "images/dishes/13.jpg"
     },
     {
       id: "spaghetti",
@@ -39,7 +39,7 @@
       name: "Spaghetti al Pomodoro",
       description: "Spaghetti trafilati al bronzo, pomodoro San Marzano, basilico e un filo d'olio extravergine.",
       tags: ["Spaghetti", "San Marzano", "Basilico", "Olio EVO"],
-      img: "images/dishes/spaghetti.svg"
+      img: "images/dishes/14.jpg"
     },
     {
       id: "risotto",
@@ -48,7 +48,7 @@
       name: "Risotto al Tartufo",
       description: "Risotto Carnaroli mantecato, tartufo nero fresco di stagione e scaglie di parmigiano 30 mesi.",
       tags: ["Carnaroli", "Tartufo nero", "Parmigiano 30 mesi"],
-      img: "images/dishes/risotto.svg"
+      img: "images/dishes/6.jpg"
     },
     {
       id: "branzino",
@@ -57,7 +57,7 @@
       name: "Branzino in Crosta",
       description: "Branzino in crosta di sale, verdure croccanti e una riduzione agrodolce all'aceto balsamico.",
       tags: ["Branzino", "Crosta di sale", "Verdure", "Aceto balsamico"],
-      img: "images/dishes/branzino.svg"
+      img: "images/dishes/9.jpg"
     },
     {
       id: "tagliata",
@@ -66,7 +66,7 @@
       name: "Tagliata di Manzo",
       description: "Tagliata di manzo frollata, patate al forno e erbe aromatiche fresche.",
       tags: ["Manzo frollato", "Patate al forno", "Erbe aromatiche"],
-      img: "images/dishes/tagliata.svg"
+      img: "images/dishes/10.jpg"
     },
     {
       id: "tortino",
@@ -75,7 +75,7 @@
       name: "Tortino & Gelato",
       description: "Tortino al cioccolato fondente dal cuore caldo, gelato artigianale alla vaniglia e caramello salato.",
       tags: ["Cioccolato fondente", "Gelato alla vaniglia", "Caramello salato"],
-      img: "images/dishes/tortino.svg"
+      img: "images/dishes/12.jpg"
     },
     {
       id: "pannacotta",
@@ -84,7 +84,7 @@
       name: "Panna Cotta",
       description: "Panna cotta artigianale, fragole fresche marinate e una nota di menta.",
       tags: ["Panna cotta", "Fragole fresche", "Menta"],
-      img: "images/dishes/pannacotta.svg"
+      img: "images/dishes/2.jpg"
     }
   ];
 
